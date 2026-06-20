@@ -43,3 +43,10 @@ console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
 
 storage.removeItem('Scaner');
 console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
+console.log('');
+
+// console.log('abc'.padStart(4, '^')); // "       abc"
+'abc'.padStart(10, 'foo'); // "foofoofabc"
+'abc'.padStart(6, '123465'); // "123abc"
+'abc'.padStart(8, '0'); // "00000abc"
+'abc'.padStart(1); // "abc"
